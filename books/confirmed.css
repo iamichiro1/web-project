@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Navbar */
+#navbar{
+  background: #f9f9f9;
+}
+#logo{
+  font-size: 36px;
+  font-weight: 550;
+  color: #9dbeb7;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 5px;
+}
+#logo span{
+  color: #e73213;
+}
+.navbar-toggler span{
+  color: #e73213;
+}
+.navbar-nav{
+  margin-left: 20px;
+}
+.nav-item .nav-link{
+  font-size: 16px;
+  font-weight: 550;
+  color:#e73213 ;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+  background: #9dbeb7 ;
+  color: white;
+}
+#navbar form button{
+  background: #e73213;
+  color: white;
+}
+
+/* Style for the booking details */
+#booking-details {
+  margin: 30px auto;
+  max-width: 550px;
+  max-height: 900px;
+  background-image:url(../image/elnido.webp);
+  padding-right: 40px;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  box-shadow:transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#booking-details h1 {
+  text-align: center;
+  color: solid black;
+}
+
+#booking-details strong {
+  font-weight: bold;
+}
+
+#booking-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#booking-details ul li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+span{
+  color: #e73213;
+}
+
+/* Footer */
+#footer{
+  width: 100%;
+  text-align: center;
+  background: transparent;
+}
+#footer h1{
+  font-weight: 600;
+  text-shadow: 0px 0px 1px  solid black;
+}
+#footer h1 span{
+  color: #e73213;
+}
+.social-links i{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  background: transparent;
+  color: white;
+  margin-left: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.social-links i:hover{
+  background: #e73213;
+}
